@@ -1,0 +1,32 @@
+:root {
+    --size       : 50rem;
+    --size-2     : calc(var(--size)/2);
+    --color-black: rgb(49, 47, 47);
+    --color-white: rgb(252, 252, 252)
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    background-color: #8b66af;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ying-yang {
+    width           : var(--size);
+    height          : var(--size);
+    border-radius   : 50%;
+    background-image: radial-gradient(var(--size-2) circle at 50% 25%, var(--color-black) 12%, transparent 10%),
+                        radial-gradient(var(--size-2) circle at 50% 25%, var(--color-white) 50%, transparent 50%),
+                        radial-gradient(var(--size-2) circle at 50% 75%, var(--color-white) 12%, transparent 10%),
+                        radial-gradient(var(--size-2) circle at 50% 75%, var(--color-black) 50%, transparent 50%),
+                        linear-gradient(to right, var(--color-white) 50%, var(--color-black) 50%);
+    box-shadow      : 5px 5px 8px 0 rgb(250, 245, 245) inset, -15px -15px 20px 0 rgb(12, 12, 12) inset, 5px 10px 20px 0 #6c4c8d;
+    ;
+}
