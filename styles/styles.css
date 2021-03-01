@@ -10,9 +10,9 @@
     font-size: 62.5%;
     margin: 0;
     padding: 0;
-    background-color: #8b66af;
 }
 body{
+    background-color: #8b66af;
     height: 100vh;
     display: flex;
     justify-content: center;
