@@ -31,3 +31,18 @@ body{
     box-shadow      : 5px 5px 8px 0 rgb(250, 245, 245) inset, -15px -15px 20px 0 rgb(12, 12, 12) inset, 5px 10px 20px 0 #6c4c8d;
     ;
 }
+@media screen and (max-width: 560px) {
+    :root {
+        --size       : 40rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    :root {
+        --size       : 30rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    :root {
+        --size       : 20rem;
+    }
+}
